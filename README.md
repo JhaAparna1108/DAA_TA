@@ -44,7 +44,7 @@ Return false.
 
 ### Test cases : 
 
-###c ase 1 : 
+### case 1 : 
 V = 5 
 Matrix : int arr[][V] = { {0, 1, 0, 0, 0},
                      {1, 0, 1, 0, 1}, 
