@@ -101,5 +101,15 @@ Output : No Graph. The Matrix contains Contains No cycle.
          ![Screenshot (248)](https://user-images.githubusercontent.com/108869232/204022539-5f45dfa0-ae60-455e-86d2-d850f48a1937.png)
          
          
+### Real life Applications :
+Road construction and connection.
+
+Route optimization in delivery services.
+
+Satellite positioning.
+
+
+         
+         
  
 
