@@ -53,10 +53,7 @@ Matrix : int arr[][V] = { {0, 1, 0, 0, 0},
                      {0, 1, 0, 1, 0} };
                      
 Output : Some Part of graph is cyclic.
-
-         The Cyclic path is:
-         
-          -> 1 -> 2 -> 3 -> 4 -> 1  
+         The Cyclic path is:-> 1 -> 2 -> 3 -> 4 -> 1  
          ![Screenshot (244)](https://user-images.githubusercontent.com/108869232/204011569-43d6b5b8-c96c-4ed2-81f8-7360311165c3.png)
 
 
@@ -69,12 +66,8 @@ Output : Some Part of graph is cyclic.
                      {0, 0, 1, 0, 0} };
 
 Output :  Some Part of graph is cyclic.
-
-          The Cyclic path is:
-          
-          -> 1 -> 2 -> 3 -> 1
-          
-            ![Screenshot (245)](https://user-images.githubusercontent.com/108869232/204018879-6b2be6b8-8e25-4206-8a9e-10e9da195312.png)
+          The Cyclic path is :-> 1 -> 2 -> 3 -> 1
+          ![Screenshot (245)](https://user-images.githubusercontent.com/108869232/204018879-6b2be6b8-8e25-4206-8a9e-10e9da195312.png)
 
 ### case 3 :
 V = 4 
@@ -82,12 +75,10 @@ int arr[][V] = { {0, 1, 0, 1,},
                      {1, 0, 1, 0,}, 
                      {1, 1, 0, 0,}, 
                      {0, 0, 1, 0,} };
+                     
 Output :  Complete graph is cyclic.
-
           The Cyclic path is:
-          
           -> 1 -> 4 -> 3 -> 2 -> 1
-          
           ![Screenshot (246)](https://user-images.githubusercontent.com/108869232/204020279-c5906448-7837-4ff3-916e-fe9e754b97b7.png)
 ### case 4 :
 V = 3
@@ -96,11 +87,8 @@ int arr[][V] = { {0, 1, 1, },
                      {1, 1, 0, } }; 
 
 Output : Complete graph is cyclic.
-
          The Cyclic path is:
-         
-          -> 1 -> 2 -> 3 -> 1
-          
+         -> 1 -> 2 -> 3 -> 1
           ![Screenshot (247)](https://user-images.githubusercontent.com/108869232/204021381-206edd72-009f-444f-89d3-f94f4844cc41.png)
           
 ### case 5 : 
@@ -110,6 +98,8 @@ int arr[][V] = { {0, 1, 0, },
                      {0, 1, 0, } }; 
 
 Output : No Graph. The Matrix contains Contains No cycle.
-
-        ![Screenshot (248)](https://user-images.githubusercontent.com/108869232/204022539-5f45dfa0-ae60-455e-86d2-d850f48a1937.png)
+         ![Screenshot (248)](https://user-images.githubusercontent.com/108869232/204022539-5f45dfa0-ae60-455e-86d2-d850f48a1937.png)
+         
+         
+ 
 
