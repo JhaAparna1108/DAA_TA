@@ -24,16 +24,6 @@ bool isCycle(int curr, int parent, int arr[][V], vector<int>& order, int visited
     return false;
 }
 
-// bool cycle(int arr[][V], vector<int>& order) {
-//     for(int i=0; i<V; ++i) {
-//         int visited[V] = {0};
-//         order.clear();
-//         order.assign(order.size(), -1);
-//         if(isCycle(i, -1, arr, order, visited))
-//             return true;
-//     }
-//     return false;
-// }
 
 int main() {
 
@@ -48,28 +38,7 @@ int main() {
         order[a]=-1;
     }
     
-    // if(cycle(arr, order)==true){
-        // if(order[0]==order[V]){
-        //     cout<<"Complete graph is cyclic."<<endl;
-        // }
-        // else{
-        //     cout<<"Some Part of graph is cyclic."<<endl;
-        // }
-        // int index;
-        // for(int i=0; i<V; ++i) {
-        //     if(order[i] == order[V]) {
-        //         index=i; 
-        //         break;
-        //     }
-        // }
-        // cout<<"The Cyclic path is:"<<endl;
-        // for(int i=index; i<V+1; ++i){
-        //     cout<<" -> "<<order[i];
-        // }
-    // }
-    // else{
-    //     cout<<"No Graph Contains No cycle."<<endl;
-    // }
+    
 
     for(int i=0; i<V; ++i) {
         int visited[V] = {0};
@@ -99,7 +68,7 @@ int main() {
         }
     }
     
-    cout<<"No Graph Contains No cycle."<<endl;
+    cout<<"No Graph. The Matrix contains Contains No cycle."<<endl;
 
     return 0;
 }
